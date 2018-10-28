@@ -1,14 +1,12 @@
 import React from 'react'
 import './fonts.css'
-
+import gif from '../images/showcase.gif'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
-  padding-top: 2em;
   width: 100%;
   height: 80vh;
   z-index: -5;
-  color: white;
   box-sizing: border-box;
 `
 const InnerWrapper = styled.div`
@@ -16,9 +14,14 @@ const InnerWrapper = styled.div`
   display: flex;
   flex-direction: row;
   max-width: 60vw;
+  float: left;
+  left: 2%;
+  margin-top: 1rem;
+  width: fit-content;
   flex-flow: wrap;
   word-break: unset;
   justify-content: start;
+  color: #353535;
 `
 
 const TagHeading = styled.h3`
@@ -39,16 +42,22 @@ const DescriptionTag = styled.h4`
 const ShowCase = styled.div`
   position: absolute;
   display: block;
-  width: 70%;
+  width: 60%;
   height: 70%;
   max-height: 1080px;
   max-width: 1920px;
-  background: #ffffff;
   top: 25%;
   left: 25%;
   z-index: -4;
   box-shadow: 4px 4px 13px 3px #000000db;
+
+  img {
+    opacity : 0.7;
+   min-width: 100%;
+    min-height: auto;
+  }
 `
+
 const TriangleShape = styled.div`
   position: absolute;
   display: block;
@@ -77,7 +86,9 @@ const TaglineMain = () => (
       <TagHeading>Erza Taufik</TagHeading>
       <DescriptionTag>//Web Developer, Front-End</DescriptionTag>
     </InnerWrapper>
-    <ShowCase />
+    <ShowCase>
+      <img src={gif} alt="showcase" />
+    </ShowCase>
   </Wrapper>
 )
 
