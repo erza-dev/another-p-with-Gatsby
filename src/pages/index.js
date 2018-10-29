@@ -1,12 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
-import TaglineMain from '../components/taglinemain'
-import NavBar from '../components/navbar'
 
-import styled from 'styled-components'
+import TaglineMain from '../components/taglinemain'
 
 const IndexPage = () => (
   <Layout>

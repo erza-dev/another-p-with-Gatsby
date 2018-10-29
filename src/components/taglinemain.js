@@ -46,16 +46,12 @@ const ShowCase = styled.div`
   height: 70%;
   max-height: 1080px;
   max-width: 1920px;
+  background: url(${gif}) center no-repeat;
+  background-size: cover;
   top: 25%;
   left: 25%;
   z-index: -4;
   box-shadow: 4px 4px 13px 3px #000000db;
-
-  img {
-    opacity : 0.7;
-   min-width: 100%;
-    min-height: auto;
-  }
 `
 
 const TriangleShape = styled.div`
@@ -86,9 +82,7 @@ const TaglineMain = () => (
       <TagHeading>Erza Taufik</TagHeading>
       <DescriptionTag>//Web Developer, Front-End</DescriptionTag>
     </InnerWrapper>
-    <ShowCase>
-      <img src={gif} alt="showcase" />
-    </ShowCase>
+    <ShowCase />
   </Wrapper>
 )
 

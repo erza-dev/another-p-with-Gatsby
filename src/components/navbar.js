@@ -5,11 +5,11 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
   position: fixed;
-  top: 60%;
-  left: 0;
+  float: right;
+  right: 2%;
   display: flex;
   width: fit-content;
-  flex-direction: column;
+  flex-direction: row;
 `
 const MainLink = styled(Link)`
   text-decoration: none;
@@ -38,8 +38,8 @@ const MainLink = styled(Link)`
 
 const NavBar = () => (
   <Wrapper>
-    <MainLink to="/page-2/">Profile</MainLink>
-    <MainLink to="/">Contact</MainLink>
+    <MainLink to="/about/">Profile</MainLink>
+    <MainLink to="/contact/">Contact</MainLink>
     <MainLink to="/">Home</MainLink>
   </Wrapper>
 )
