@@ -139,7 +139,11 @@ table {
 /*my config */
 
 body {
-  background-color: #ff7f50;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  background: rgba(229, 152, 241, 1);
+  background: linear-gradient(to bottom, rgba(229, 152, 241, 1) 0%, rgba(229, 152, 241, 1) 10%, rgba(36, 178, 255, 1) 90%, rgba(36, 178, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e598f1', endColorstr='#24b2ff', GradientType=0);
 }
+
+/* bg-color*/

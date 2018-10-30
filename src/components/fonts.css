@@ -12,7 +12,8 @@ h6 {
   letter-spacing: 2px;
 }
 
-h3 {
+h3,
+p {
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   letter-spacing: 2px

@@ -48,8 +48,9 @@ const ShowCase = styled.div`
   max-width: 1920px;
   background: url(${gif}) center no-repeat;
   background-size: cover;
-  top: 25%;
-  left: 25%;
+  float: right;
+  top: 20%;
+  right: 10%;
   z-index: -4;
   box-shadow: 4px 4px 13px 3px #000000db;
 `

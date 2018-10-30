@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import NavBar from '../components/navbar'
+import Footer from '../components/footer'
+import SocialBar from '../components/socialbar'
 
 import './layout.css'
 
@@ -33,11 +35,14 @@ const Layout = ({ children }) => (
           style={{
             margin: '0 auto',
             maxWidth: 1370,
+            height: 100,
           }}
         >
           <NavBar />
+          <SocialBar />
           {children}
         </div>
+        <Footer />
       </>
     )}
   />
