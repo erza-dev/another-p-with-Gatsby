@@ -81,7 +81,7 @@ const TaglineMain = () => (
     <TriangleShape />
     <InnerWrapper>
       <TagHeading>Erza Taufik</TagHeading>
-      <DescriptionTag>//Web Developer, Front-End</DescriptionTag>
+      <DescriptionTag>{'//Web Developer, Front-End'}</DescriptionTag>
     </InnerWrapper>
     <ShowCase />
   </Wrapper>

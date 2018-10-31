@@ -5,7 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import NavBar from '../components/navbar'
 import Footer from '../components/footer'
-import SocialBar from '../components/socialbar'
 
 import './layout.css'
 
@@ -39,7 +38,6 @@ const Layout = ({ children }) => (
           }}
         >
           <NavBar />
-          <SocialBar />
           {children}
         </div>
         <Footer />

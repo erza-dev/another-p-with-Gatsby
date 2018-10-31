@@ -15,16 +15,19 @@ const Container = styled.div`
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  color: #d4d4aa;
   h2 {
     padding: 1em 0 0 0;
     font-weight: 600;
     font-size: 140%;
     line-height: 2;
     letter-spacing: 2px;
+    color: #ffe3a3;
   }
   h3 {
     padding: 0.5em 0;
     font-size: 120%;
+    letter-spacing: 1.5px;
   }
   .head-3 {
     padding-top: 0;

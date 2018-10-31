@@ -19,6 +19,7 @@ const AboutMe = styled.div`
   font-size: 1.2em;
   border-radius: 15px;
   word-wrap: break-word;
+  color: #ffe3a3;
 
   h4 {
     width: 800px;
@@ -28,6 +29,7 @@ const AboutMe = styled.div`
   }
   p {
     width: 800px;
+    color: #d4d4aa;
   }
 `
 

@@ -13,19 +13,20 @@ const Wrapper = styled.div`
 `
 const MainLink = styled(Link)`
   text-decoration: none;
-  margin: 1.5rem;
+  margin: 1.5rem 1rem 1.5rem 1rem;
+  letter-spacing: 1.5px;
   font-size: 2rem;
   width: inherit;
-  color: #d4d4aa99;
+  color: #29435ecc;
 
   :hover {
-    color: #d4d4aa;
+    color: #29435e;
   }
 
   :after {
     display: block;
     content: '';
-    background-color: #353535;
+    background-color: #29435e;
     height: 2px;
     bottom: calc(50% - 1.5px);
     width: 0;
