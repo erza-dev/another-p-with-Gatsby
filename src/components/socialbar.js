@@ -17,18 +17,9 @@ const Wrapper = styled.div`
 
   ul {
     padding: 0.5em;
-    a {
-      justify-content: center;
-      align-items: center;
-      color: #29435e;
 
-      :hover {
-        transition: all 350ms ease-in;
-        color: #ffe3a3;
-      }
-    }
     li {
-      min-width: 60px;
+      width: 60px;
       height: 60px;
       text-align: center;
       border: 2px solid #29435e;
@@ -40,6 +31,20 @@ const Wrapper = styled.div`
         transition: all 320ms ease-in;
         border: 2px solid #ffe3a3;
       }
+      a {
+        width: inherit;
+        heigth: inherit;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        color: #29435e;
+
+        :hover {
+          transition: all 350ms ease-in;
+          color: #ffe3a3;
+        }
+      }
     }
   }
 `
@@ -47,20 +52,42 @@ const Wrapper = styled.div`
 const SocialBar = () => (
   <Wrapper>
     <ul>
-      <a href="https://github.com/erza-dev/" rel="noopener" target="_blank">
-        <li>
+      <li>
+        <a
+          href="https://github.com/erza-dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <GitHub />
-        </li>
-      </a>
+        </a>
+      </li>
 
       <li>
-        <Linkedin />
+        <a
+          href="https://www.linkedin.com/in/erza-taufik-6a8524123/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Linkedin />
+        </a>
       </li>
       <li>
-        <Twitter />
+        <a
+          href="https://twitter.com/erzataufik"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Twitter />
+        </a>
       </li>
       <li>
-        <Facebook />
+        <a
+          href="https://www.facebook.com/vladimirerza"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Facebook />
+        </a>
       </li>
     </ul>
   </Wrapper>
